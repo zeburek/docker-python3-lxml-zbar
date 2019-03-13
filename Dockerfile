@@ -8,4 +8,4 @@ RUN apk add --no-cache python3 py3-pip curl bash \
 RUN apk add zbar-dev --update-cache --repository \
     http://dl-3.alpinelinux.org/alpine/edge/testing/ --allow-untrusted
 
-RUN pip install lxml pyzbar pillow
+RUN pip3 install lxml pyzbar pillow
